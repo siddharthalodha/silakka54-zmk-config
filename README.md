@@ -79,12 +79,39 @@ The keymap is located in `config/lily58.keymap`. After making changes:
 2. Wait for the GitHub Action to complete
 3. Download and flash the new firmware
 
-## Bluetooth Profiles
+## Bluetooth Controls
 
-The firmware supports 5 Bluetooth profiles (BT1-BT5). Switch profiles via the Lower layer:
+All Bluetooth controls are on the **Lower layer** (hold the middle left thumb key).
 
-- `BT_CLR` - Clear current profile
-- `BT_SEL 0-4` - Select profile 1-5
+### Profile Selection (top row, left side)
+| Key | Function |
+|-----|----------|
+| ESC | `BT_CLR` - Clear current profile pairing |
+| 1 | Select Bluetooth profile 1 |
+| 2 | Select Bluetooth profile 2 |
+| 3 | Select Bluetooth profile 3 |
+| 4 | Select Bluetooth profile 4 |
+| 5 | Select Bluetooth profile 5 |
+
+### Output Selection (top row, right side)
+| Key | Function |
+|-----|----------|
+| 6 | `OUT_USB` - Force USB output |
+| 7 | `OUT_BLE` - Force Bluetooth output |
+| ` (backtick) | `BT_CLR_ALL` - Clear ALL profile pairings |
+
+### Pairing a New Device
+1. Hold **Lower** + press **1-5** to select a profile
+2. The keyboard enters pairing mode if the profile is empty
+3. On your device, search for "Lily58" and connect
+
+### Switching Between Devices
+1. Hold **Lower** + press the profile number (1-5) for that device
+
+### Troubleshooting Connection Issues
+1. Hold **Lower** + **ESC** to clear the current profile
+2. Remove the keyboard from your device's Bluetooth settings
+3. Re-pair by selecting the profile again
 
 ## Files
 
