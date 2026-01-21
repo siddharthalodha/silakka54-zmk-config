@@ -12,7 +12,7 @@ The Silakka54 is based on the [Lily58](https://github.com/kata0510/Lily58) layou
 2. Optionally modify `config/silakka54.keymap` to your preferences
 3. Push your changes to GitHub
 4. Go to the **Actions** tab in your repository
-5. Download the `silakka54-wireless-firmware.zip` artifact from the latest build
+5. Download the `firmware.zip` artifact from the latest build
 
 ### Building Locally
 
