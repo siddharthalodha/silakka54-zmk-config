@@ -1,0 +1,12 @@
+# Build artifacts
+build/
+*.uf2
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
