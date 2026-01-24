@@ -179,11 +179,11 @@
 
             display-name = "Lower";
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &out OUT_USB  &out OUT_BLE  &trans           &trans    &trans    &bt BT_CLR_ALL
-&kp F1      &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                        &kp F7        &kp F8        &kp F9           &kp F10   &kp F11   &kp F12
-&kp GRAVE   &kp EXCL      &kp AT        &kp HASH      &kp DOLLAR    &kp PRCNT                     &kp CARET     &kp AMPS      &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp TILDE
-&trans      &trans        &trans        &trans        &trans        &trans        &none    &none  &trans        &kp MINUS     &kp KP_PLUS      &kp LBRC  &kp RBRC  &kp PIPE
-                                        &trans        &trans        &trans        &none    &none  &trans        &trans        &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3      &bt BT_SEL 4                  &out OUT_USB  &out OUT_BLE    &trans          &trans         &trans   &bt BT_CLR_ALL
+&trans      &kp F1        &kp F2        &kp F3          &kp F4            &kp F5                        &trans        &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN  &trans   &trans
+&trans      &kp F6        &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp F7                        &kp HOME      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT      &kp END  &trans
+&trans      &kp F8        &kp F9        &kp F10         &kp F11           &kp F12       &none    &none  &trans        &trans          &trans          &trans         &trans   &trans
+                                        &kp LEFT_GUI    &trans            &trans        &none    &none  &trans        &trans          &trans
             >;
         };
 
@@ -201,7 +201,7 @@
 &kp GRAVE  &kp N1        &kp N2        &kp N3          &kp N4        &kp N5                     &kp PLUS   &kp N7   &kp N8        &kp N9  &kp ASTERISK  &trans
 &trans     &kp MINUS     &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL     &kp COMMA                  &kp COMMA  &kp N4   &kp NUMBER_5  &kp N6  &kp PERIOD    &trans
 &trans     &kp NUMBER_6  &kp N7        &kp N8          &kp N9        &kp N0     &none    &none  &kp MINUS  &kp N1   &kp NUMBER_2  &kp N3  &kp SLASH     &kp BSLH
-                                       &trans          &kp LEFT_GUI  &kp SPACE  &none    &none  &kp ENTER  &kp DEL  &trans
+                                       &kp LEFT_GUI    &kp LEFT_GUI  &kp SPACE  &none    &none  &kp ENTER  &kp DEL  &trans
             >;
         };
 
