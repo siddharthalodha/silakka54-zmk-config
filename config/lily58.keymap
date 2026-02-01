@@ -262,7 +262,7 @@
 &kp TAB               &kp Q                             &kp W                    &kp E               &kp R                   &kp T                         &kp Y                &kp U                    &kp I                &kp O             &kp P                                 &kp MINUS
 &kp LEFT_SHIFT        &HMSuperL LS(LA(LC(LEFT_GUI))) A  &HMCtrlL LEFT_CONTROL S  &HMAltL LEFT_ALT D  &HMShiftL LEFT_SHIFT F  &kp G                         &kp H                &HMShiftR RIGHT_SHIFT J  &HMAltR RIGHT_ALT K  &HMCtrlR RCTRL L  &HMSuperR RA(RC(LS(RIGHT_GUI))) SEMI  &kp SQT
 &kp LCTRL             &kp Z                             &kp X                    &kp C               &kp V                   &kp B         &none    &none  &kp N                &kp M                    &kp COMMA            &kp DOT           &kp FSLH                              &kp RSHFT
-                                                                                 &kp LGUI            &kp LEFT_ALT            &kp LEFT_GUI  &none    &none  &rightspace 4 SPACE  &mo 2                    &mo 3
+                                                                                 &kp LEFT_ALT        &leftspace 1 RETURN     &kp LEFT_GUI  &none    &none  &rightspace 4 SPACE  &mo 2                    &mo 3
             >;
         };
 
