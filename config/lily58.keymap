@@ -63,6 +63,7 @@
             quick-tap-ms = <150>;
             require-prior-idle-ms = <125>;
             flavor = "balanced";
+            hold-trigger-on-release;
         };
 
         HMSuperR: HMSuperR {
@@ -77,6 +78,7 @@
             quick-tap-ms = <175>;
             require-prior-idle-ms = <150>;
             flavor = "balanced";
+            hold-trigger-on-release;
         };
 
         HMAltR: HMAltR {
